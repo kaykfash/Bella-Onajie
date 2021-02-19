@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: auto;
+   
+}
+
+.header-container{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    background-color:white;
+    display: flex;
+}
+
+ .logo{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+
+
+.nav{
+    margin-top: 70px;
+    margin-left: 400px;
+    
+    }
+
+.nav li{
+    list-style: none;
+    display: inline;
+    padding: 40px;
+   }
+
+   .nav a{
+      text-decoration:none;
+     color: rgba(37, 43, 66, 1);
+
+      
+   }
+/* header styling ends */
+
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background: url("https://res.cloudinary.com/skillup-africa/image/upload/v1613559779/Rectangle_48_gjcwxr.png") no-repeat center center/cover;
+    padding: 5% 0%;
+    
+}
+
+
+.banner-text p, .banner-text h1{
+    color: white;
+    
+}
+
+.banner-text p{
+    font-size: 18px;
+}
+
+.banner-text h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.buttn{
+    margin-top: 80px;
+   
+}
+
+.buttn button{
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+}
+#btn1{
+    background-color:#FA4A0C;
+    }
+
+    #btn2{
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    /* Banner ending */
+
+    .appstore{
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+        
+    }
+
+    .appstore img{
+        margin-top: -300px;
+        margin-left: 8rem;
+}
+
+      /* app store ending */
+
+     hr {
+            width: 80%;
+            margin: 0 auto;
+      }
+
+      /* underline ending */
+
+      #content-1 h3{
+          text-align: center;
+          margin-top: 50px;
+      }
+
+      .app-works1{
+          width: 80%;
+          height: auto;
+          margin: 0 auto;
+          display: flex;
+          /* background-color:aqua; */
+      }
+
+     .app-img{
+         width: 50%;
+         height: 700px;
+       
+
+     }
+
+    .create-an-account{
+        margin-top: 350px;
+         width: 50%;
+         height: 700px;
+        
+        
+        
+     }
+
+     .create-an-account h5{
+        
+        color: #FA4A0C;
+        font-size: 20px;
+       
+    }
+    
+    .create-an-account .meals{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+     
+
+     .create-an-account p{
+         margin-top: 20px;
+         margin-right: 170px;
+     }
+
+      .login{
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.7rem;
+     }
+     /* Content-1 ends */
+
+     .content-2{
+         width: 80%;
+         margin-top: -300px;
+         margin-left: auto;
+         margin-right: auto;
+         display: flex;
+     }
+
+     .delicacy-page{
+        width: 50%;
+        /* background-color: crimson; */
+        
+    }
+
+     .varieties{
+         width: 50%;
+         margin-top: 50px;
+         margin-left: 120px;
+         padding-top: 70px;
+       /* background-color: cornflowerblue; */
+     }
+     .varieties h5{
+         color:#FA4A0C ;
+         font-size: 20px;
+         
+     }
+
+     .varieties p{
+         line-height: 1.5;
+         padding-top: 10px;
+     }
+     
+
+     .delicacy-page img{
+         margin-top: -150px;
+         margin-right: 20px;
+     }
+
+     .varieties .meals{
+         font-size: 1.5rem;
+         font-weight: 600;
+     }
+
+     /* content-2 ending */
+
+.content-3{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-top: -100px;
+}
+
+.payment-image{
+    margin-top: -100px;
+}
+
+.checkout{
+    margin-top: 200px;
+   
+}
+.checkout h5{
+    color:#FA4A0C ;
+    font-size: 20px;
+}
+
+.checkout p{
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.checkout .meals{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+/* content-3 end */
+
+.banner-2{
+    background: url("https://res.cloudinary.com/dslkhklbl/image/upload/v1613554920/Rectangle_47_1_mbx4qh.png")no-repeat center center/cover;
+    margin-top: -50px;
+    width: 100%;
+    height: 100px;
+    padding: 10% 0;
+}
+
+.banner-2{
+    color: white;
+    
+}
+
+
+.bottom-buttn button{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    margin-top: 70px;
+}
+
+#btnA{
+    background-color:#FA4A0C;
+    }
+
+    #btnB{
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    footer {
+        width: 100%;
+        background-color: white;
+
+    }
+
+    .footer-container{
+        width: 80%;
+        height: 200px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+       
+    }
+
+    .footer-container > div{
+        width:33%;
+        color: white;
+        align-self: center;
+        text-align: center;
+    }
+     
+    /* .footer-container .social-media{
+        
+
+    } */
+
+    .fab{
+        color:#FA4A0C ; 
+        font-size: 25px;
+        padding-left: 20px;
+    }
+
+    .footer-container .copyright{
+        color: gray;
+    }
+
+    /* Resposiveness */
+
+    @media screen {
+        
+    }
